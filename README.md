@@ -18,7 +18,6 @@ The default thermal cooling mechanism on Sony flagships isn't very efficient. Th
 - <img src="https://img.shields.io/badge/Android-5.0%2B-green.svg">
 
 ### Devices
-All flagships variants using <code>snapdragon 810/820/835/845 </code>
 ```
 - Xperia XZ3
 - Xperia XZ2 - XZ2 Compact
@@ -29,8 +28,9 @@ All flagships variants using <code>snapdragon 810/820/835/845 </code>
 - Xperia Z5
 - Xperia Z4 - Z3+
 ```
+All variants are supported (single & dual SIM , Gobal & Japnese)
 ## Requirements
-- This module uses Unity template that needs either [Magisk](https://github.com/topjohnwu/Magisk/releases) or init.d support to work
+- This module uses Unity template that needs either [Magisk](https://github.com/topjohnwu/Magisk/releases) otherwise a system installation is performed
 
 ## Changelog
 ### v1.0 31.01.2019
