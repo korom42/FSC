@@ -3,6 +3,6 @@ name=Thermal MOD for SONY devices (FSC)
 version=v1.0.0
 versionCode=100
 author=korom42
-description=This mod will makes the CPU run cooler to achieve a better and consistent performance.
+description=Enhanced thermal engine for Sony flagships to reduce overheating and achieve more consistent performance.
 support=
 minMagisk=1530
