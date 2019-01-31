@@ -1,6 +1,6 @@
-<h1 align="center">FSC ❄️</h1>
+<h1 align="center">FSC Thermal MOD - Magisk❄️</h1>
 <p align="center">
- <strong>Thermal MOD for SONY devices</strong></div>
+ <strong>faster, smarter, cooler</strong></div>
 </p>
 
 ## How it works
@@ -10,16 +10,15 @@ The default thermal cooling mechanism on Sony flagships isn't very efficient. Th
 - Improved overall performance
 - Less heat & faster cool down 
 - Maintain a consistent performance for extended periods of time
-- Prolonged Video recordings and Camera usage
+- Prolonged camera usage, video recording 
 - Suitable for daily usage & gaming
 
 ## Compatibility
 ### Software
 - <img src="https://img.shields.io/badge/Android-5.0%2B-green.svg">
-- Any ROM or Kernel (Stock, LOS, RR ...etc)
 
 ### Devices
-All SONY flagships variants using <code>snapdragon 810/820/835/845 </code>
+All flagships variants using <code>snapdragon 810/820/835/845 </code>
 ```
 - Xperia XZ3
 - Xperia XZ2 - XZ2 Compact
@@ -31,7 +30,7 @@ All SONY flagships variants using <code>snapdragon 810/820/835/845 </code>
 - Xperia Z4 - Z3+
 ```
 ## Requirements
-- This is a Unity module so you need either [Magisk](https://github.com/topjohnwu/Magisk/releases) or init.d support
+- This module uses Unity template that needs either [Magisk](https://github.com/topjohnwu/Magisk/releases) or init.d support to work
 
 ## Changelog
 ### v1.0 31.01.2019
