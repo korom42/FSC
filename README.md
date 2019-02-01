@@ -1,14 +1,15 @@
-<h1 align="center">FSC Thermal MOD - Magisk❄️</h1>
+<h1 align="center">FSC Thermal Mod - Magisk❄️</h1>
 <p align="center">
  <strong>faster, smarter, cooler</strong></div>
 </p>
 
 ## How it works
-The default thermal cooling mechanism on Sony flagships isn't very efficient. This MOD basically starts throttling the frequencies gradually at certain optimal temperatures allowing the device to cool-down faster while maintaning a good performance.
+The default thermal cooling mechanism on Sony flagships isn't very efficient. This Mod basically starts throttling the frequencies gradually at certain optimal temperatures allowing the device to cool-down faster while maintaning a good performance. All the included modified <code>thermal-engine</code> files are based on the stock ones pulled from their correspending latest <code>firmware</code>, for devices that share the same <code>SoC</code> platform the base files are taken from the most recent device if they utilize the same temperature <code>sensors</code>.
 
 ## Main advantages
 - Improved overall performance
-- Less heat & faster cool down 
+- Less heat & faster cool down
+- Resolved overheating issue for <code>Snapdragon 810</code> flagship series 
 - Maintain a consistent performance for extended periods of time
 - Prolonged camera usage, video recording 
 - Suitable for daily usage & gaming
@@ -20,13 +21,23 @@ The default thermal cooling mechanism on Sony flagships isn't very efficient. Th
 
 ### Device(s)
 ```
+Snapdragon 845
 - Xperia XZ3
 - Xperia XZ2 - XZ2 Compact
 - Xperia XZ2 Premium
+
+Snapdragon 835
 - Xperia XZ1 - XZ1 Compact
+- Xperia XZ Premium
+
+Snapdragon 820
 - Xperia X Performance
 - Xperia XZ
-- Xperia Z5
+
+Snapdragon 810 (v2)
+- Xperia Z5 - Z5 Compact - Z5 Premium
+
+Snapdragon 810
 - Xperia Z4 - Z3+
 ```
 All variants are supported (single & dual SIM , Gobal & Japnese)
@@ -39,7 +50,8 @@ All variants are supported (single & dual SIM , Gobal & Japnese)
 - First release
 
 ## Disclaimer
-You are doing this at your own risk. I am not responsible for bricked devices, dead SD cards, thermonuclear war, or you getting fired because the alarm app failed. Please do some research if you are unsure of how to go about something.
+- You are doing this at your own risk. I am not responsible for bricked devices, dead SD cards, thermonuclear war, or you getting fired because the alarm app failed. Please do some research if you are unsure of how to go about something. 
+- A check is performed during the installation so unless you know what you are doing, _never install this on other devices_ even if your device shares the same <code>SoC</code> platform with the supported devices.
 
 ## Credits
 ### Author
