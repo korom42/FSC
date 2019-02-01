@@ -4,12 +4,12 @@
 </p>
 
 ## How it works
-The default thermal cooling mechanism on Sony flagships isn't very efficient. This Mod basically starts throttling the frequencies gradually at certain optimal temperatures allowing the device to cool-down faster while maintaning a good performance. All the included modified <code>thermal-engine</code> files are based on the stock ones pulled from their correspending latest <code>firmware</code>, for devices that share the same <code>SoC</code> platform the base files are taken from the most recent device if they utilize the same temperature <code>sensors</code>.
+The default thermal cooling mechanism on Sony flagships isn't very efficient. This Mod basically starts throttling the frequencies gradually at certain optimal temperatures allowing the device to cool-down faster while maintaning a good performance. The best example and case scenario for this shines especially with <code>Snapdragon 810</code> flagship series which were known for the high <code>idle</code> temperature and overheating, while resolving overheating issues, a signficant <code>25%</code> of performance is gained at the same time. All the included modified <code>thermal-engine</code> files are based on the stock ones pulled from their correspending device's latest <code>firmware</code>, for devices that share the same <code>SoC</code> platform the base files are taken from the most recent device if they utilize the same temperature <code>sensors</code>.
 
 ## Main advantages
 - Improved overall performance
 - Less heat & faster cool down
-- Resolved overheating issue for <code>Snapdragon 810</code> flagship series 
+- 
 - Maintain a consistent performance for extended periods of time
 - Prolonged camera usage, video recording 
 - Suitable for daily usage & gaming
@@ -31,8 +31,9 @@ Snapdragon 835
 - Xperia XZ Premium
 
 Snapdragon 820
-- Xperia X Performance
 - Xperia XZ
+- Xperia XZs
+- Xperia X Performance
 
 Snapdragon 810 (v2)
 - Xperia Z5 - Z5 Compact - Z5 Premium
