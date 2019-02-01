@@ -160,7 +160,7 @@ fi
   ui_print "** DISCLAIMER **"
   ui_print " "
   ui_print "   Use at your own risk"
-  ui_print "   I am not responsible for any that could happen"
+  ui_print "   I am not responsible for any damage that could happen"
   ui_print "   Please do some research if you do not know how this mod works"
   ui_print " "
   ui_print " "

@@ -38,7 +38,7 @@ All variants are supported (single & dual SIM , Gobal & Japnese)
 ### v1.0 31.01.2019
 - First release
 
-## Disclaimers
+## Disclaimer
 You are doing this at your own risk. I am not responsible for bricked devices, dead SD cards, thermonuclear war, or you getting fired because the alarm app failed. Please do some research if you are unsure of how to go about something.
 
 ## Credits
