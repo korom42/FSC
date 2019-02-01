@@ -14,14 +14,15 @@ The default thermal cooling mechanism on Sony flagships isn't very efficient. Th
 - Suitable for daily usage & gaming
 
 ## Compatibility
-### Software
+### Android Version(s)
 - <img src="https://img.shields.io/badge/Android-5.0%2B-green.svg">
+- All ROMS
 
-### Devices
+### Device(s)
 ```
 - Xperia XZ3
 - Xperia XZ2 - XZ2 Compact
-- Xperia XZ2 Premium (not tested)
+- Xperia XZ2 Premium
 - Xperia XZ1 - XZ1 Compact
 - Xperia X Performance
 - Xperia XZ
@@ -29,12 +30,16 @@ The default thermal cooling mechanism on Sony flagships isn't very efficient. Th
 - Xperia Z4 - Z3+
 ```
 All variants are supported (single & dual SIM , Gobal & Japnese)
+
 ## Requirements
 - This module uses Unity template that needs either [Magisk](https://github.com/topjohnwu/Magisk/releases) otherwise a system installation is performed
 
 ## Changelog
 ### v1.0 31.01.2019
 - First release
+
+## Disclaimers
+You are doing this at your own risk. I am not responsible for bricked devices, dead SD cards, thermonuclear war, or you getting fired because the alarm app failed. Please do some research if you are unsure of how to go about something.
 
 ## Credits
 ### Author

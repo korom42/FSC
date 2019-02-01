@@ -157,7 +157,15 @@ fi
 	  abort "  Aborting"
 	fi
 
+  ui_print "** DISCLAIMER **"
   ui_print " "
+  ui_print "   Use at your own risk"
+  ui_print "   I am not responsible for any that could happen"
+  ui_print "   Please do some research if you do not know how this mod works"
+  ui_print " "
+  ui_print " "
+
+sleep "1"
   
 if [ -z $PROFILEMODE ] ; then
 
@@ -183,15 +191,15 @@ if [ -z $PROFILEMODE ] ; then
     $FUNCTION "DOWN"
   fi
  
-  ui_print "** FSC Profiles **"
+  ui_print "** Choose Thermal tweaks mode **"
   ui_print " "
   ui_print "   1. Balanced"
-  ui_print "   2. Max Performance"
+  ui_print "   2. Performance Boost"
   ui_print " "
   ui_print "** Please choose tweaks mode **"
   ui_print " "
-  ui_print "   Vol(+) = Balanced -Recommended-"
-  ui_print "   Vol(-) = Max Performance"
+  ui_print "   Vol(+) = Balanced (Recommended)"
+  ui_print "   Vol(-) = Performance Maximizer"
   ui_print " "
   
     if $FUNCTION; then
@@ -201,9 +209,9 @@ if [ -z $PROFILEMODE ] ; then
     cp -f $INSTALLER/devices/$device/0/thermal-engine.conf  $INSTALLER/$dir/thermal-engine.conf
     else
     PROFILEMODE=1
-    ui_print "   Max Performance mode selected."
+    ui_print "   Performance Maximizer mode selected."
     ui_print " "
-	cp -f $INSTALLER/devices/$device/1/thermal-engine.conf  $INSTALLER/$dir/thermal-engine.conf
+    cp -f $INSTALLER/devices/$device/1/thermal-engine.conf  $INSTALLER/$dir/thermal-engine.conf
     fi
 	
 	else
