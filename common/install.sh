@@ -40,18 +40,6 @@ chooseportold() {
   fi
 }
 
-# Tell user aml is needed if applicable
-#if $MAGISK && ! $SYSOVERRIDE; then
-#  if $BOOTMODE; then LOC="/sbin/.core/img/*/system $MOUNTPATH/*/system"; else LOC="$MOUNTPATH/*/system"; fi
-#  FILES=$(find $LOC -type f -name "*audio_effects*.conf" -o -name "*audio_effects*.xml" 2>/dev/null)
-#  if [ ! -z "$FILES" ] && [ ! "$(echo $FILES | grep '/aml/')" ]; then
-#    ui_print " "
-#    ui_print "   ! Conflicting audio mod found!"
-#    ui_print "   ! You will need to install !"
-#    ui_print "   ! Audio Modification Library !"
-#    sleep 3
-#  fi
-#fi
 
 # GET OLD/NEW FROM ZIP NAME
 case $(echo $(basename $ZIP) | tr '[:upper:]' '[:lower:]') in
@@ -90,12 +78,12 @@ if device_check "akatsuki" || device_check "akatsuki_dsds"; then
   multiprofile=1
 fi
 
-#if device_check "aurora" || device_check "aurora_dsds"; then
-#  ui_print "  Xperia XZ2 Premium detected"
-#  device="XZ3"
-#  support=1
-#  multiprofile=1
-#fi
+if device_check "aurora" || device_check "aurora_dsds"; then
+  ui_print "  Xperia XZ2 Premium detected"
+  device="XZ3"
+  support=1
+  multiprofile=1
+fi
 
 if device_check "akari" || device_check "akari_dsds"; then
   ui_print "  Xperia XZ2 detected"
