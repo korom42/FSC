@@ -146,6 +146,12 @@ if device_check "sumire" || device_check "sumire_dsds"; then
   support=1
 fi
 
+if device_check "suzuran" || device_check "suzuran_dsds"; then
+  ui_print "  Xperia Z5 detected"
+  device="Z5"
+  support=1
+fi
+
 if device_check "ivy" || device_check "ivy_dsds"; then
   ui_print "  Xperia Z3+ detected"
   device="Z4"
