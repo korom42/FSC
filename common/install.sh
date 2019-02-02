@@ -147,7 +147,7 @@ if device_check "sumire" || device_check "sumire_dsds"; then
 fi
 
 if device_check "suzuran" || device_check "suzuran_dsds"; then
-  ui_print "  Xperia Z5 detected"
+  ui_print "  Xperia Z5 Compact detected"
   device="Z5"
   support=1
 fi
