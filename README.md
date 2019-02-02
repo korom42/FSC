@@ -19,6 +19,7 @@ The default thermal cooling mechanism on Sony flagships isn't very efficient. Th
 - All ROMS
 
 ### Device(s)
+This Mod is intended and only tested for the devices listed below. _(All variants are supported : single & dual SIM , Gobal & Japnese models)_
 ```
 Snapdragon 845
 - Xperia XZ3
@@ -40,7 +41,6 @@ Snapdragon 810 (v2)
 Snapdragon 810
 - Xperia Z4 - Z3+
 ```
-All variants are supported (single & dual SIM , Gobal & Japnese)
 
 ## Requirements
 - This module uses Unity template that needs either [Magisk](https://github.com/topjohnwu/Magisk/releases) otherwise a system installation is performed
