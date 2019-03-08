@@ -62,9 +62,9 @@ device_check() {
 }
 
 if [ $(grep_prop ro.build.version.sdk) -ge "26" ] ;then
-  dir="vendor/etc"
+  dir="$VEN/etc"
 else
-  dir="system/etc"
+  dir="$SYS/etc"
 fi
 
 ui_print " "
