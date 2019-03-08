@@ -3,6 +3,11 @@
  <strong>faster, smarter, cooler</strong></div>
 </p>
 
+<p align="center">
+</a> <img src="https://img.shields.io/badge/Version-1.1-lightgrey.svg?style=flat-square"></a> <img src="https://img.shields.io/badge/Updated-March%2008%2C%202019-brightgreen.svg?style=flat-square"></a> <a href="https://forum.xda-developers.com/crossdevice-dev/sony/z3-z4-z5-fsc-improve-performance-t3673785"><img src="https://img.shields.io/badge/XDA-Thread-orange.svg?style=flat-square"></a> <a href="https://t.me/FSC_XDA"><img src="https://img.shields.io/badge/Telegram-Channel-blue.svg?style=flat-square"></a>
+</p>
+
+
 ## How it works
 The default thermal cooling mechanism on Sony flagships isn't very efficient. This Mod basically starts throttling the frequencies gradually at certain optimal temperatures allowing the device to cool-down faster while maintaning a good performance. Taking as example the <code>Snapdragon 810</code> flagship series that are known for high <code>idle</code> temperatures and overheating, while resolving overheating issues, a signficant <code>25%</code> of performance is gained at the same time. All of the included modified <code>thermal-engine</code> files are based on the stock ones pulled from their correspending device's latest <code>firmware</code>, for devices that share the same <code>SoC</code> platform the base files are taken from the most recent device if they utilize the same temperature <code>sensors</code>.
 
@@ -15,11 +20,11 @@ The default thermal cooling mechanism on Sony flagships isn't very efficient. Th
 
 ## Compatibility
 ### Android Version(s)
-- <img src="https://img.shields.io/badge/Android-5.0%2B-green.svg">
-- All ROMS
+- <img src="https://img.shields.io/badge/Android-5.0+-GREEN.svg?style=flat-square">
+- Any ROM
 
 ### Device(s)
-This Mod is intended and only tested for the devices listed below. _(All variants are supported : single & dual SIM , Gobal & Japnese models)_
+This Mod is intended for the devices listed below. _(All variants are supported : single & dual SIM , Gobal & Japnese models)_
 ```
 Snapdragon 845
 - Xperia XZ3
