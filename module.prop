@@ -3,6 +3,6 @@ name=Thermal Mod for Sony devices (FSC)
 version=v1.1
 versionCode=110
 author=korom42
-description=This module will enhance the thermal engine for the supported Sony flagships to reduce overheating and achieve more consistent performance.
+description=Custom thermal engine for Sony flagships to reduce overheating and achieve a consistent performance.
 support=
 minMagisk=1530
