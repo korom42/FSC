@@ -1,4 +1,4 @@
-<h1 align="center">FSC Thermal Mod - Magisk❄️</h1>
+<h1 align="center">Custom Thermal Mod for Sony flagships (FSC) </h1>
 <p align="center">
  <strong>faster, smarter, cooler</strong></div>
 </p>
