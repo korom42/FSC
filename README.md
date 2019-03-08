@@ -13,9 +13,9 @@ The default thermal cooling mechanism on Sony flagships isn't very efficient. Th
 
 ## Main advantages
 - Improved overall performance
-- Less heat & faster cool down
+- Prevent aggressive early  thermal throttling
 - Maintain a consistent performance for extended periods of time
-- Prolonged camera usage, video recording 
+- Prolonged camera usage & video recording 
 - Suitable for daily usage & gaming
 
 ## Compatibility
